@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/xsl" href="chatStyle.xsl" ?>
+
+<chat xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='chatSchema.xsd'>
+    <users>
+        <chatCreatorClient>
+            <email>israa@yahoo.com</email>
+            <userName>israa</userName>  
+        </chatCreatorClient>
+        
+        <otherClient>
+             <email>toqa@yahoo.com</email>
+            <userName>toqa</userName> 
+        </otherClient>
+         <otherClient>
+             <email> </email>
+            <userName> </userName> 
+        </otherClient>
+        
+        
+    </users>
+    <messages>
+    <msg>
+        <from>israa</from>
+        <to>toqa</to>
+        <date>1994-11-01</date>
+        <body>Hello,toqa</body>
+        <color>red</color>
+        <font>Arial</font>
+        <size>15</size>
+    </msg>
+     <msg>
+        <from>israa</from>
+        <to>toqa</to>
+        <date>1994-11-01</date>
+        <body>are u here!</body>
+        <color>red</color>
+        <font>Arial</font>
+        <size>15</size>
+    </msg>
+    <msg>
+         <from>toqa</from>
+        <to>israa</to>
+        <date>1994-11-01</date>
+        <body>yes,Hello Israa</body>
+        <color>red</color>
+        <font>Arial</font>
+        <size>15</size>
+    </msg>
+     <msg>
+        <from>israa</from>
+        <to>toqa</to>
+        <date>1994-11-01</date>
+        <body>How are u?</body>
+        <color>red</color>
+        <font>Arial</font>
+        <size>15</size>
+    </msg>
+    
+    </messages>
+</chat>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='chatStyle.xsl'?>
+<chat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="chatSchema.xsd">
+<users>
+<chatCreatorClient>
+<email>a@gmail.com</email>
+<userName>israa</userName>
+</chatCreatorClient>
+<otherClient>
+<email>israa@yahoo.com</email>
+</otherClient>
+</users>
+<messages>
+<msg>
+<from>a@gmail.com</from><to>israa@yahoo.com</to><date>2017/02/20 11:50:39</date><body>hi</body><color>#000000</color><font>Times New Roman</font><size></size></msg><msg><from>israa@yahoo.com</from><to>a@gmail.com</to><date>2017/02/20 11:50:59</date><body>hi</body><color>#4D66CC</color><font>Times New Roman</font><size>30</size></msg><msg><from>israa@yahoo.com</from><to>a@gmail.com</to><date>2017/02/20 11:51:52</date><body>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjlodksfldgbthfjlffmdesjrletrklrstkl;er;le;lewioeruteruerjndsfndfgjfwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</body><color>#4D66CC</color><font>Times New Roman</font><size>30</size></msg><msg><from>a@gmail.com</from><to>israa@yahoo.com</to><date>2017/02/20 11:52:20</date><body>dfjgdifgudiofug dofigndfgodfigndfogidfg</body><color>#000000</color><font>Times New Roman</font><size></size></msg><msg><from>israa@yahoo.com</from><to>a@gmail.com</to><date>2017/02/20 11:52:32</date><body>jdfsgjsdrsjf</body><color>#4D66CC</color><font>Times New Roman</font><size>30</size></msg></messages></chat>
