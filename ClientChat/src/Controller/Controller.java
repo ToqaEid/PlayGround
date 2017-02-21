@@ -429,8 +429,8 @@ public class Controller {
                 } else {
                     System.out.println("ERROR : your are not connect with any friend");
                     break;
-              */  }
-            }
+                }
+            */}
         /*  End Toqa    */
         /*  Samy    */    
             //receiverRef.announceReceivingFinished(user.getUserEmail());
