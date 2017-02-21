@@ -417,20 +417,25 @@ public class Controller {
             System.out.println(in == null);
             System.out.println(mydata.length);
             System.out.println(sentFile == null);
-        /*    
-            File receivedFile = receiverRef.openReceivedFile(user.getUserEmail(),sentFile);
-        /*    int myLength = in.read(mydata);
+        /*  Samy    */    
+            //File receivedFile = receiverRef.openReceivedFile(user.getUserEmail(),sentFile);
+        /*  End Samy    */
+        /*  Toqa    */
+            int myLength = in.read(mydata);
             while (myLength > 0) {
-                if (receiverRef != null) {
+            /*    if (receiverRef != null) {
                     receiverRef.receiveFile(user.getUserEmail(), sentFile, mydata, myLength, receivedFile);
                     myLength = in.read(mydata);
                 } else {
                     System.out.println("ERROR : your are not connect with any friend");
                     break;
-                }
+              */  }
             }
-            receiverRef.announceReceivingFinished(user.getUserEmail());
-    */    } catch (RemoteException ex) {
+        /*  End Toqa    */
+        /*  Samy    */    
+            //receiverRef.announceReceivingFinished(user.getUserEmail());
+        /*  End Samy    */    
+        } catch (RemoteException ex) {
             Logger.getLogger(Controller.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(Controller.class.getName()).log(Level.SEVERE, null, ex);
