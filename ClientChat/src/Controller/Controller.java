@@ -408,9 +408,14 @@ public class Controller {
     }
 
     /*=================== Send File=======================*/
-    public void sendFileToReceiver(String uEmail, FileInputStream in, byte[] mydata, String sentFile) {
-        /*try {
-            ClientServices receiverRef = servicesRef.getUserRef(uEmail);
+    public void sendFileToReceiver(String uEmail, FileInputStream in, byte[] mydata, String sentFile) throws RemoteException {
+       
+            ClientServices receiverRef = null;
+        try {
+            receiverRef = servicesRef.getUserRef(uEmail);
+        } catch (RemoteException ex) {
+            Logger.getLogger(Controller.class.getName()).log(Level.SEVERE, null, ex);
+        }
             System.out.println("sendFileToReceiver");
             System.out.println(receiverRef == null);
             System.out.println(uEmail);
@@ -419,7 +424,7 @@ public class Controller {
             System.out.println(sentFile == null);
             
             File receivedFile = receiverRef.openReceivedFile(user.getUserEmail(),sentFile);
-            int myLength = in.read(mydata);
+        /*    int myLength = in.read(mydata);
             while (myLength > 0) {
                 if (receiverRef != null) {
                     receiverRef.receiveFile(user.getUserEmail(), sentFile, mydata, myLength, receivedFile);
