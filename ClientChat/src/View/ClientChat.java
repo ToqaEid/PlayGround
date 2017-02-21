@@ -168,9 +168,9 @@ public class ClientChat extends Application {
     }
 
     /*========================== Send File ========================*/
-    /*public void sendFileToController(String uEmail, FileInputStream in, byte[] mydata, String sentFile) {
+    public void sendFileToController(String uEmail, FileInputStream in, byte[] mydata, String sentFile) {
         controller.sendFileToReceiver(uEmail, in, mydata, sentFile);
-    }*/
+    }
 
     /*========================== Receive File =====================*/
     public File openReceivedFile(String email, String sentFile){

@@ -519,9 +519,9 @@ public class ClientHomeController_2 extends Information implements Initializable
     }
 
     /*===================== send File ===========================*/
-   /* public void sendFileToClientChat(String uEmail, FileInputStream in, byte[] mydata, String fileName) {
+    public void sendFileToClientChat(String uEmail, FileInputStream in, byte[] mydata, String fileName) {
         clientChat.sendFileToController(uEmail, in, mydata, fileName);
-    }*/
+    }
 
     /*====================== receive file ========================*/
     public File openReceivedFile(String email, String sentFile){

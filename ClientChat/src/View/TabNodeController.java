@@ -324,7 +324,7 @@ public class TabNodeController extends Information implements Initializable {
                         in = new FileInputStream(sentFile.getAbsoluteFile());
                         byte[] mydata = new byte[1024 * 1024];
          
-       //                 homeConroller.sendFileToClientChat(uEmail, in, mydata, sentFile.getName());
+                        homeConroller.sendFileToClientChat(uEmail, in, mydata, sentFile.getName());
 
                     } catch (FileNotFoundException ex) {
                         Logger.getLogger(TabNodeController.class
