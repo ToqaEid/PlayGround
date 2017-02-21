@@ -8,12 +8,19 @@
 *.war
 *.ear
 
-build.xml
-manifest.mf
-build-impl.xml
-project.xml
-project.properties
-genfiles.properties
+ClientChat/build.xml
+ClientChat/manifest.mf
+ClientChat/nbproject/build-impl.xml
+ClientChat/nbproject/project.xml
+ClientChat/nbproject/project.properties
+ClientChat/nbproject/genfiles.properties
+
+ServerChat/build.xml
+ServerChat/manifest.mf
+ServerChat/nbproject/build-impl.xml
+ServerChat/nbproject/project.xml
+ServerChat/nbproject/project.properties
+ServerChat/nbproject/genfiles.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
